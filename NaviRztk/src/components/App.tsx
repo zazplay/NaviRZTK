@@ -15,9 +15,9 @@ import './App.css';
 
 function App() {
 
-    let menuflag = 0;
-  useEffect(() => {
     
+  useEffect(() => {
+    let menuflag = 0;
    const btn =  document.getElementById('burger-menu');
    btn?.addEventListener("click", function (e) {
     const menu = document.getElementsByClassName('menudiv')[0] as HTMLElement;
